@@ -15,7 +15,7 @@ Hiring managers often have a vague idea of the role they are hiring for (e.g., "
 The system utilizes an agentic workflow built with **LangGraph**, composed of three primary nodes:
 
 <p align="center">
-  <img src="output.png" alt="Assessment Recommender Workflow" width="400" height="600"/>
+  <img src="output.png" alt="Assessment Recommender Workflow" width="200" height="400"/>
 </p>
 
 1.  **Intent Router Node:** Analyzes user queries for sufficient detail. It decides whether to ask for more information or proceed to the search phase.
