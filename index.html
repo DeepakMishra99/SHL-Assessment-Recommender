@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHL AI Assessment Platform</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <button class="new-chat-btn" id="new-chat-btn">
+            <span>+</span> New Assessment Search
+        </button>
+        <div class="history-item" id="history-item">Today's Session</div>
+        <div class="history-list" id="history-list"> </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <div class="header-title">SHL Assessment Agent</div>
+            <div class="status-badges">
+                <div class="badge" id="health-badge"><div class="dot"></div> Server Checking...</div>
+            </div>
+        </header>
+
+        <div id="chat-window">
+            <div class="message agent">Hello! I am connected to the SHL catalog. What job role are you recruiting for?</div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="e.g. Find me a test for a Mid-Level Sales Manager...">
+            <button class="send-btn" id="send-btn">Send</button>
+        </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

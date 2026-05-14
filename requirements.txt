@@ -1,0 +1,26 @@
+# Core Frameworks
+langchain
+langchain-core
+langchain-community
+langgraph
+langgraph-cli[inmem]
+uvicorn
+# LLM & Embeddings Providers
+langchain-google-genai
+langchain-huggingface
+transformers
+sentence-transformers
+
+# Vector Store & Processing
+faiss-cpu
+bs4
+requests
+
+# Backend & API
+fastapi[standard]
+
+# Frontend & UI
+streamlit
+
+# Environment
+python-dotenv
