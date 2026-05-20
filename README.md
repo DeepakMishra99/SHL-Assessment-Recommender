@@ -23,7 +23,7 @@ The system utilizes an agentic workflow built with **LangGraph**, composed of th
 3.  **Generator Node:** Synthesizes retrieved data and conversation history into a professional response, often presented in a structured table format with advisory notes.
 
 ## Tech Stack
-- **LLM Model:** Gemini 1.5 Flash
+- **LLM Model:** 'gemini-3.1-flash-lite'
 - **Embedding Model:** `all-MiniLM-L6-v2`
 - **Orchestration:** LangGraph
 - **Vector Database:** FAISS (stored locally as `shl_faiss_index`)
